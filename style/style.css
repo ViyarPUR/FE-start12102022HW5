@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.logo{
+    float: left;
+    margin: 16px 0 16px 12px;
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-weight: 600;
+}
+li {
+    font-weight: 500;
+    font-size: 21px;
+    margin-left: 24px;
+    display: inline;
+    color: rgba(0, 0, 0, 1);
+  }
+  .allmenu {
+    margin-top: 16px;
+    display: inline-block;
+    float: right;
+  }
+  .menu {
+    display: inline-block;
+  }
+  .button {
+    margin-left: 32px;
+    margin-right: 12px;
+    display: inline-block;
+  }
+  .buttonheader {
+    padding: 10px 16px 10px 16px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2203e4;
+    background-color: white;
+    border: 1px solid rgba(34, 3, 228, 1);
+  }
+.telephone{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.authors{
+  margin: 24px 0 0 24px;
+  background: #0062ff;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  border: 0px;
+  padding: 10px 16px 10px 16px;
+}
+.checkdemo{
+  margin: 40px 0 0 40px;
+  background: #FFFF;
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  border: 1px solid #575757;
+  padding: 10px 16px;
+}
+.write{
+  font-size: 47px;
+  font-weight: 700;
+}
+.amet{
+  font-size: 16px;
+  font-weight: 400;
+}
+.imgtel{
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.writephone{
+  vertical-align: top;
+  margin-top: 229px;
+  margin-left: 70px;
+  display: inline-block;
+}
+.mainavtor{
+  margin-left: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.author{
+  font-size: 36px;
+  font-weight: 600;
+}
+.avtortext{
+  font-size: 16px;
+  font-weight: 400;
+}
+.markphoto{
+  margin-top: 50px;
+  display: inline-block;
+}
+.markinfo{
+  display: inline-block;
+  font-size: 27px;
+  font-weight: 600;
+  vertical-align: top;
+  margin-top: 30px;
+  vertical-align: top;
+}
+.authorinfo{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.markname{
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+.markname::after{
+  content: "Graphic designer";
+  font-size: 21px;
+  color: #575757;
+  display: block;
+}
+.icon{
+  margin-top: 10px;
+}
+.in{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+.insta{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+.facebook{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+.gold{
+  float: right;
+  margin-top: 45px;
+}
+.mark{
+  float: left;
+}
+.gregory,
+.henry{
+  font-size: 21px;
+  color: #dea405;
+  margin-top: 10px;
+}
+.markdes{
+  font-size: 27px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 10px;
+}
+.gregory::after{
+  content: "Programmer";
+  font-size: 16px;
+  display: block;
+}
+.henry::after{
+  content: "Analyst";
+  font-size: 16px;
+  display: block;
+}
+.markdes::after{
+  content: "Graphic designer";
+  font-size: 21px;
+  color: #575757;
+  display: block;
+}
+.markdes::before{
+  content: url("../img/strela.png");
+  position: relative;
+  left: -15px;
+  bottom: -15px;
+}
+.zagolovok{
+  width: 100%;
+  background-color: #0062ff;
+  text-align: center;
+}
+.bluesection{
+  width: 100%;
+  background-color: #0062ff;
+}
+.conteiner{
+  width: 1280px;
+  background-color: #0062ff;
+  display: block;
+  margin: 0 auto;
+}
+.forwho{
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffff;
+  padding-top: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.fortext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  margin-top: 16px;
+}
+.forstudent{
+  margin-top: 60px;
+  float: left;
+}
+.studimg{
+  display: inline-block;
+}
+.studtext{
+  display: inline-block;
+  vertical-align: top;
+}
+.forstud{
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFFF;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.sttext{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #ffff;
+}
+.freeimg{
+  display: inline-block;
+}
+.freetext{
+  display: inline-block;
+  vertical-align: top;
+}
+.forfreelance{
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFFF;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.frtext{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #ffff;
+}
+.forfree{
+  margin-top: 60px;
+  float: right;
+}
+.foragency{
+  margin-top: 60px;
+  float: left;
+}
+.ageimd{
+  display: inline-block;
+}
+.agetext{
+  display: inline-block;
+  vertical-align: top;
+}
+.marimg{
+  display: inline-block;
+}
+.martext{
+  display: inline-block;
+  vertical-align: top;
+}
+.formarketing{
+  margin-top: 60px;
+  float: right;
+}
+.atext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+}
+.mar{
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFFF;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.forag{
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFFF;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.markets{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #ffff;
+}
+.iwantit{
+  margin-top: 65px;
+  margin-bottom: 72px;
+  background: #FFFF;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2203e4;
+  border: 1px solid #2203e4;
+  padding: 10px 16px;
+  position: relative;
+  left: 645px;
+}
+.chekdemo-block{
+  width: 1280px;
+  background-color: #ffff;
+  display: block;
+  margin: 0 auto;
+}
+.chekintro{
+  width: 100%;
+  background-color: #ffff;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.check{
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.checktext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  margin-top: 16px;
+}
+.moretext{
+  text-align: center;
+}
+.watch,
+.conf,
+.readh{
+  font-size: 21px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.watchtext,
+.conftext,
+.rtext{
+  font-size: 16;
+  font-weight: 400;
+  color: #575757;
+  margin-top: 12px;
+}
+.moretext{
+  display: inline-block;
+}
+.video{
+  display: inline-block;
+}
+.videotext{
+  display: block;
+  margin-left: 80px;
+  margin-bottom: 130px;
+}
+.yelovblock{
+  width: 100%;
+  background-color: #ffbe0b;
+}
+.yelovcont{
+  width: 1280px;
+  background-color: #ffbe0b;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.opin{
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 67px;
+  margin-top: 0px;
+  margin-bottom: 13px;
+}
+.optext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  margin-bottom: 42px;
+}
