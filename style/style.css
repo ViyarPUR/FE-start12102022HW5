@@ -380,11 +380,13 @@ li {
   background-color: #ffbe0b;
 }
 .yelovcont{
+  overflow: hidden;
+  padding-top: 67px;
+  padding-bottom: 67px;
+  text-align: center;
   width: 1280px;
-  background-color: #ffbe0b;
   display: block;
   margin: 0 auto;
-  text-align: center;
 }
 .opin{
   font-size: 36px;
@@ -399,4 +401,162 @@ li {
   font-weight: 400;
   color: #575757;
   margin-bottom: 42px;
+}
+.jones{
+  background-color: #FFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px 6px rgba(0, 0, 0, 0.12);
+  display: inline-block;
+  padding: 70px 60px 40px 16px;
+}
+.tw{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 35px;
+}
+.info{
+  display: inline-block;
+}
+.info{
+  text-align: left;
+  padding-left: 12px;
+}
+.name{
+  font-size: 27px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.ceo{
+  font-size: 21px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.ceotext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  margin-bottom: 0;
+}
+.name::after{
+  content: url(../img/stars.png);
+  position: relative;
+  left: 9px;
+  top: 4px;
+}
+.jones::before{
+  content: url(../img/shablon.png);
+  position: absolute;
+  right: 1138px;
+  top: 2738px;
+  opacity: 0.45;
+}
+.jones::after{
+  content: url(../img/shablon.png);
+  position: absolute;
+  left: 1143px;
+  top: 2738px;
+  opacity: 0.45;
+}
+.start{
+  padding-top: 80px;
+  padding-bottom: 67px;
+  text-align: center;
+  width: 1280px;
+  display: block;
+  margin: 0 auto;
+}
+.startwith{
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+}
+.starttext{
+  font-size: 14px;
+  font-weight: 400;
+  color: #575757;
+}
+.ip14{
+  display: inline-block;
+}
+.myprod{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+.iphone14{
+  margin-top: 75px;
+  margin-bottom: 0px;
+}
+.mypr{
+  text-align: left;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2203e4;
+  margin-bottom: 16px;
+  margin-top: 19px;
+}
+.mytext{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+}
+.addcart{
+  background-color: #2203e4;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFF;
+  text-align: left;
+  border: none;
+  padding: 10px 16px;
+}
+.butt{
+  position: absolute;
+}
+.rev{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+.rev::before{
+  content: url(../img/stars.png);
+  position: relative;
+  top: 10px;
+  right: 8px;
+}
+.last{
+  max-width: 600px;
+  margin: 100px auto 50px;
+}
+.wait{
+  font-size: 27px;
+  font-weight: 600;
+  color: #000000;
+}
+.enter{
+  width: 100%;
+  margin: 0 auto 24px;
+  border: 0;
+  display: block;
+  padding: 25px 24px 26px 24px;
+  color: rgba(34, 3, 228, 1);
+  background: rgba(58, 134, 255, 0.2);
+  border-radius: 12px;
+}
+.submit{
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  margin: -11px auto 54px;
+  border: 0;
+  display: block;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 98, 255, 1);
 }
