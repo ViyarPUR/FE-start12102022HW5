@@ -22,7 +22,14 @@ li {
     margin-left: 24px;
     display: inline;
     color: rgba(0, 0, 0, 1);
-  }
+}
+.link{
+  font-weight: 500;
+    font-size: 21px;
+    display: inline;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
   .allmenu {
     margin-top: 16px;
     display: inline-block;
@@ -387,6 +394,7 @@ li {
   width: 1280px;
   display: block;
   margin: 0 auto;
+  position: relative;
 }
 .opin{
   font-size: 36px;
@@ -450,15 +458,15 @@ li {
 .jones::before{
   content: url(../img/shablon.png);
   position: absolute;
-  right: 1138px;
-  top: 2738px;
+  right: 1040px;
+  top: 251px;
   opacity: 0.45;
 }
 .jones::after{
   content: url(../img/shablon.png);
   position: absolute;
-  left: 1143px;
-  top: 2738px;
+  left: 1040px;
+  top: 251px;
   opacity: 0.45;
 }
 .start{
